@@ -17,20 +17,4 @@ public class BuyOneGetOneFreeDiscountStrategy implements IDiscountStrategy {
         return item.price();
     }
 
-
-//    @Override
-//    public BigDecimal getDiscount(ItemByUnit itemObj, int units) {
-//        if(units==0)
-//            return BigDecimal.ZERO;
-//        else if(units%2==0)
-//            return itemObj.price().multiply(new BigDecimal(units / 2));
-//        else
-//            return itemObj.price().multiply(new BigDecimal((units-1) / 2));
-//    }
-//
-//    @Override
-//    public BigDecimal getDiscount(ItemByWeight itemByWeight, int units) {
-//        return null;
-//    }
-
 }
